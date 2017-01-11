@@ -1,0 +1,74 @@
+@{ ViewBag.Title = "Home"; }
+<div class="container-fluid">
+    <div class="row">
+        @Html.DevExpress().ImageSlider(s => {
+            s.Name = "ImageSlider";
+            s.Width = Unit.Percentage(100);
+            s.Height = Unit.Pixel(500);
+
+            s.SettingsImageArea.ImageSizeMode = ImageSizeMode.FillAndCrop;
+            s.SettingsImageArea.NavigationButtonVisibility = ElementVisibilityMode.Always;
+            s.SettingsImageArea.EnableLoopNavigation = true;
+            s.SettingsNavigationBar.Mode = NavigationBarMode.Dots;
+
+            s.SettingsSlideShow.AutoPlay = true;
+            s.SettingsSlideShow.PlayPauseButtonVisibility = ElementVisibilityMode.OnMouseOver;
+        }).BindToFolder("~/Content/Images/Components").GetHtml()
+    </div>
+</div>
+<div class="container">
+    <section class="row text-center">
+        <div class="col-md-12">
+            <h1>Richardrealiyama Software Development</h1>
+            <p class="mainText">We build  web based applications and mobile applications..</p>
+            <center>Website Designer</center>
+            <center>Desktop Applications</center>
+            <center>Android Applications Developer</center>
+            <center>Iphone Applications Developer</center>
+         
+        </div>
+        
+    </section>
+    <section class="row features">
+        <div class="col-md-4 media">
+            <div class="media-left">
+                <div class="media-object">
+                    <i class="glyphicon glyphicon-wrench featureIcon text-primary"></i>
+                </div>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Software Developement</h4>
+                <p> We can assist you at every stage of the software development life cycle. </p>
+            </div>
+        </div>
+        <div class="col-md-4 media">
+            <div class="media-left">
+                <div class="media-object">
+                    <i class="glyphicon glyphicon-cog featureIcon text-primary"></i>
+                </div>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Web Application Development</h4>
+                <p>
+                 Our software engineers are versitile in building web based applications. We are also experts in many verticals and business domains, including e-Commerce, e-Learning and more.</p>
+            </div>
+        </div>
+        <div class="col-md-4 media">
+            <div class="media-left">
+                <div class="media-object">
+                    <i class="glyphicon glyphicon-phone featureIcon text-primary"></i>
+                </div>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">Mobile Application Development</h4>
+                <p>We develop powerful, usable mobile applications that solve business problems, attract users, and reinforce your brand.This mobile apps can run on iOS and Android operating systems</p>
+            </div>
+        </div>
+    </section>
+    
+        
+        
+                </div>
+            
+        
+

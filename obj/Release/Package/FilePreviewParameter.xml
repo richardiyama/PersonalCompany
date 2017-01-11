@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="richardrealiyamasoftwaresolutions" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\USER\\Documents\\Visual\ Studio\ 2015\\Projects\\DXApplication2\\DXWebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\USER\\Documents\\Visual\ Studio\ 2015\\Projects\\DXApplication2\\DXWebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="data source=(localdb)\mssqllocaldb;initial catalog=aspnet-DXWebApplication1-20160716142416;integrated security=SSPI" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\Documents\\Visual\ Studio\ 2015\\Projects\\DXApplication2\\DXWebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
